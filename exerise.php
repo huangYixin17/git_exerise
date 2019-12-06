@@ -7,6 +7,6 @@
     <title>exerise1</title>
 </head>
 <body>
-<font color ="red">Hello World!</font>
+    <font color ="red">Hello World!</font>
 </body>
 </html>
