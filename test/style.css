@@ -1,0 +1,14 @@
+body{
+    background-color: darkgoldenrod;
+}
+p{
+    color: brown;
+    margin-left: 20px;
+}
+
+button{
+    background: content-box;
+}
+img{
+    width: 50px;
+}
