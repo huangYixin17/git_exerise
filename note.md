@@ -1,6 +1,6 @@
 # 我的 project 說明
 ## 前言
-    + this is a exerise
+    + 這裡是練習用,最後可刪除
 ## 目標
     + 學會markdown
         1. 好整理筆記
