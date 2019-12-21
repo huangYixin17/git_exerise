@@ -16,5 +16,4 @@
     echo "test->x : ".$test->x."<br/>";
     echo "test->y : ".$test->y."<br/>";
     echo "test->z : ".$test->z."<br/>";
-?>123
-
+?>
