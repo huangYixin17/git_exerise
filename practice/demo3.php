@@ -1,5 +1,5 @@
 <?php
-    include "Shepherd";
+    include "Shepherd.php";
 
     $mydog = new Shepherd("peter","brown","牧羊犬","10");
     echo $mydog->name."<br/>";
