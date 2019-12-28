@@ -1,5 +1,5 @@
 <?php
-    abstract class Aniaml{
+    abstract class Animal{
         public function sleep(){
             echo "sleep";
         }
