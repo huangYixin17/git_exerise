@@ -3,9 +3,9 @@
     //include "dog_class.php";
     include "Bird_class.php";
     //$dog = new Dog();
-    $Bird = new Bird();
+    $bird = new Bird();
     //$action = new Action();
-    $Bird->move();
+    echo $bird->move();
     //$action->actionMove($dog);
     //$action->actionMove($bird);
 ?>
