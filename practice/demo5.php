@@ -5,6 +5,7 @@
     $dog = new Dog();
     $bird = new Bird();
     $action = new Action();
+    $dog->move();
     $action->actionMove($dog);
     $action->actionMove($bird);
 ?>
