@@ -5,7 +5,7 @@
     $dog = new Dog();
     $bird = new Bird();
     class Action{
-        public function actionMove(Animal $odj){
+        public function actionMove($odj){
             echo $odj->move();
         }
     }
