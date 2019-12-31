@@ -4,8 +4,10 @@
     #include "Animal_abst.php";
     $dog = new Dog();
     class Action{
-        public function actionMove($dog){
-            echo $dog->move();
+        public function actionMove($odj){
+            echo $odj->move();
         }
     }
+    $action = new Action();
+    $action->actionMove($dog)
 ?>
