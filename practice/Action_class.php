@@ -5,7 +5,7 @@
     $dog = new Dog();
     class Action{
         public function actionMove(Animal $dog){
-            $dog->move();
+            echo $dog->move();
         }
     }
 ?>
