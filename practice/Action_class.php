@@ -4,7 +4,7 @@
     #include "Animal_abst.php";
     $dog = new Dog();
     class Action{
-        public function actionMove(Animal $dog){
+        public function actionMove($dog){
             echo $dog->move();
         }
     }
