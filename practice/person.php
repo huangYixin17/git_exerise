@@ -1,7 +1,7 @@
 <?php
   class Person {
-      private $sex;
-      public $ABC;
+      private $sex; #2.這裡可以被呼叫出來
+      public $ABC;  #1.這邊定義這個變數,如果不給他一個對應值,那沒辦法呼叫他
       public function __set($name, $value){
         
         //限制不可動態產生屬性
@@ -30,11 +30,12 @@
     //PHP_EOL 空隔或是換行
     $person->name = 'PHP';
     $person->ABC = "AB";
+    echo $person->sex.PHP_EOL;
     echo $person->ABC.PHP_EOL;
     echo $person->name.PHP_EOL;
     echo $person->value.PHP_EOL;
     // sex 這個屬性是無法取得的
-    echo $person->sex.PHP_EOL;
+    
     echo isset($person->address);
     unset($person->name);
 ?>
