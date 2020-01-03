@@ -27,7 +27,7 @@
     $person = new Person();
     //Person 類別沒有 name 這個屬性名稱
     //PHP_EOL 空隔或是換行
-    $person->name = 'PHP';
+    #$person->name = 'PHP';
     echo $person->name.PHP_EOL;
     // sex 這個屬性是無法取得的
     echo $person->sex.PHP_EOL;
