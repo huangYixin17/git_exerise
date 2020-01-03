@@ -29,6 +29,7 @@
     //PHP_EOL 空隔或是換行
     #$person->name = 'PHP';
     echo $person->name.PHP_EOL;
+    echo $person->value.PHP_EOL;
     // sex 這個屬性是無法取得的
     echo $person->sex.PHP_EOL;
     echo isset($person->address);
