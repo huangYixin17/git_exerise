@@ -29,6 +29,7 @@
     //Person 類別沒有 name 這個屬性名稱
     //PHP_EOL 空隔或是換行
     $person->name = 'PHP';
+    $person->ABC = "AB";
     echo $person->ABC.PHP_EOL;
     echo $person->name.PHP_EOL;
     echo $person->value.PHP_EOL;
