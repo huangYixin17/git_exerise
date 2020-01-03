@@ -1,6 +1,7 @@
 <?php
   class Person {
       private $sex;
+      public $ABC;
       public function __set($name, $value){
         
         //限制不可動態產生屬性
@@ -27,7 +28,7 @@
     $person = new Person();
     //Person 類別沒有 name 這個屬性名稱
     //PHP_EOL 空隔或是換行
-    #$person->name = 'PHP';
+    $person->name = 'PHP';
     echo $person->name.PHP_EOL;
     echo $person->value.PHP_EOL;
     // sex 這個屬性是無法取得的
