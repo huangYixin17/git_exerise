@@ -9,7 +9,7 @@
         身高:<?php echo $_POST['weight'];?><br>
         <?php
             $h = $_POST['height'];
-            $w = $_POST['height'];
+            $w = $_POST['weight'];
             $bmi = $w/($h**2);?>
         <?php echo "BMI: $bmi"?><br>
         </div>
