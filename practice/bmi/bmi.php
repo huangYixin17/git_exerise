@@ -5,11 +5,11 @@
         <title>bmi(php)輸出畫面</title>
     </head>
     <body><div>
-        體重:<?php echo $POST['height'];?><br>
-        身高:<?php echo $POST['weight'];?><br>
+        體重:<?php echo $_POST['height'];?><br>
+        身高:<?php echo $_POST['weight'];?><br>
         <?php
-            $h = $POST['height'];
-            $w = $POST['height'];
+            $h = $_POST['height'];
+            $w = $_POST['height'];
             $bmi = $w/($h**2);?>
         <?php echo "BMI: $bmi"?><br>
         </div>
