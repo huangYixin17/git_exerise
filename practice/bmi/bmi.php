@@ -12,5 +12,7 @@
             $w = $POST['height'];
             $bmi = $w/($h**2);?>
         <?php echo "BMI: $bmi"?><br>
+        </div>
+    </body>
 
 </html>
